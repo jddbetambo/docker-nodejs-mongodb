@@ -662,7 +662,34 @@ Start the application:
 node app.js
 ```
 
+Next, navigate your browser to **`http://your_server_ip:8080`**. You will see the following landing page:
 
+<p align="center">
+    <img src="images/mongo12.png" width="85%">
+</p>
+
+Click on the Get **`Shark Info button`**. You will see the following information page, with the shark input form added:
+
+<p align="center">
+    <img src="images/mongo9.png" width="85%">
+</p>
+
+In the form, add a shark of your choosing. For the purpose of this demonstration, we will add **Megalodon Shark** to the **Shark Name** field, and **Ancient** to the **Shark Character** field:
+
+<p align="center">
+    <img src="images/mongo10.png" width="85%">
+</p>
+
+Click on the **Submit** button. You will see a page with this shark information displayed back to you:
+
+<p align="center">
+    <img src="images/mongo11.png" width="85%">
+</p>
+
+You now have a working shark information application that allows users to add information about their favorite sharks.
+
+## Conclusion
+In this tutorial, you built out a Node application by integrating a MongoDB database and rewriting the application’s logic using the MVC architectural pattern. This application can act as a good starting point for a fully-fledged CRUD application.
 
 ## Sources
 - https://www.digitalocean.com/community/tutorials/how-to-integrate-mongodb-with-your-node-application
